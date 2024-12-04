@@ -1,11 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SOBRE MI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            width: 80%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            text-align: left;
+        }
+        input, textarea, button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            img {
+                width: 100%;
+            }
+            main, footer {
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>SOBRE MI</h1>
+    </header>
+    <main>
+        <h2>Actividad Desarrollo Laboratorio "Sobre mí"</h2>
+        <img src="https://ii.ct-stc.com/1/logos/candidates/2024/09/04/0310057351214thumbnail.jpg" alt="Foto de Henry" />
+        <p>Soy Henry Joseph Vega Oñate, un joven de 24 años con una hija y dos hermanos. Me encuentro en un momento crucial de mi vida, a punto de dar el salto hacia la independencia y formar mi propia familia. Con mi título de abogado en mano, que obtendré el 18 de diciembre, ya he comenzado a construir mi camino profesional.</p>
+        <p>Mi pasión por el derecho me ha llevado a trabajar en diferentes áreas, desde el juzgado laboral hasta la comisaría de familia, acumulando experiencia en roles como dependiente judicial, secretario ad-honorem y oficial mayor ad-honorem.</p>
+        <p>Algo que me encanta de mi carrera es que me permite manejar mis propios casos, por lo que puedo generar ingresos sin depender de un trabajo fijo.</p>
+
+        <h3>Mis Red Social De Contacto</h3>
+        <ul>
+            <li><a href="https://www.facebook.com/JhosepDeLaHoz/" target="_blank">Facebook</a></li>
+
+        </ul>
+
+        <h3>Mis Pasatiempos</h3>
+        <ul>
+            <li>Jugar videojuegos</li>
+            <li>Pasar tiempo con mi familia</li>
+            <li>Estudiar y trabajar</li>
+        </ul>
+
+        <h3>Mis Tareas Pendientes</h3>
+        <ol>
+            <li>Finalizar mi proyecto de tesis</li>
+            <li>Estudiar para el examen final</li>
+            <li>Preparar mi ceremonia de graduación</li>
+        </ol>
+
+        <h3>Mi Horario Semanal</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Estudiar para el examen final</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Finalizar proyecto de tesis</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>Preparar ceremonia de graduación</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Formulario de Contacto</h3>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="reason">Motivo del Contacto:</label>
+            <input type="text" id="reason" name="reason" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>Autor: HENRY VEGA &copy; 2024</p>
+    </footer>
 </body>
 </html>
